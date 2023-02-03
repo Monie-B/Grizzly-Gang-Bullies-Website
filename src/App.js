@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import MeetMardy from './pages/MeetMardy';
+import Bloodline from './pages/Bloodline'
+import MeetGizmo from './pages/MeetGizmo'
+import Gallery from './pages/Gallery'
+import Litters from './pages/Litters'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/meetmardy" element={<MeetMardy />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/meetgizmo" element={<MeetGizmo />} />
+          <Route path="/bloodline" element={<Bloodline />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/litters" element={<Litters />} />
+        </Routes>
     </div>
   );
 }

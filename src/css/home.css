@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+
+.home-title {
+    font-family: 'Piedra', cursive;
+    font-size: xx-large;
+    color: brown;
+    text-shadow: 5px 5px 5px black;
+}
+
+.logo {
+    width: 450px;
+}
+
+.M-G1 {
+    position: absolute;
+    right: 190px;
+    top: 420px;
+    z-index: 1;
+    width: 400px;
+}

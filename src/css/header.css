@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Trade+Winds&display=swap');
+
+
+.header {
+    background-color: rgb(21, 10, 31);
+}
+
+.title {
+    font-size: xx-large;
+    text-align: center;
+    color: aliceblue;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 0;
+    margin-top: 0;
+    vertical-align: top;
+    font-size: 80px;
+    font-family: 'Trade Winds', cursive;
+}
+
+.main {
+    width: 120px;
+    display: inline-block;
+}
