@@ -1,0 +1,45 @@
+.footer {
+    background-color: rgb(21, 10, 31);
+    height: 150px;
+    color: white;
+}
+
+.foot-divOne {
+    display: inline-block;
+    text-align: left;
+    width: 18%;
+}
+
+.sitenav, hr, .foot-divOne p {
+    margin-bottom: 0;
+}
+
+.ftr-txt1, .ftr-txt2 {
+    display: inline-block;
+    width: 50%;
+}
+
+.ftr-main {
+    display: inline-block;
+    width: 60%;
+}
+
+.ftr-main p {
+    margin-bottom: 0;
+}
+
+.ftr-right {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ig, .tt, .yt {
+    display: inline-block;
+    width: 50px;
+}

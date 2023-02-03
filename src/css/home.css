@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Piedra&family=Trade+Winds&display=swap');
 
 
 .home-title {
@@ -8,14 +8,35 @@
     text-shadow: 5px 5px 5px black;
 }
 
+.home-mainDiv {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.home-leftDiv {
+    display: inline-block;
+    width: 50%;
+}
+
+.logo-div {
+    width: 100%;
+}
 .logo {
-    width: 450px;
+    width: 100%;
 }
 
 .M-G1 {
-    position: absolute;
-    right: 190px;
-    top: 420px;
-    z-index: 1;
-    width: 400px;
+    width: 80%;
+}
+
+.home-rightDiv {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.home-rightTitle {
+    font-family: 'Changa One', cursive;
+    font-size: 60px;
+    margin: 0;
 }
