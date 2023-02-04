@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import NavBar from '../components/NavBar'
 
-const Contact = () => {
+const Females = () => {
   return (
     <>
       <Header />
@@ -16,4 +16,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Females

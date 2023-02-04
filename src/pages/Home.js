@@ -12,6 +12,7 @@ const Home = () => {
         <NavBar />
         <div className='home-title'>
             <h1>Welcome to the Grizzly Gang!</h1>
+            <h3>We breed pure bred American Bullies</h3>
         </div>
         <main className='home-mainDiv'>
             <div className='home-leftDiv'>

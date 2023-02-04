@@ -1,15 +1,20 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import NavBar from '../components/NavBar'
-import '../css/mardyandgizmo.css'
+import '../css/males.css'
 
-const MeetMardy = () => {
+const Males = () => {
   return (
     <>
       <Header />
       <NavBar />
+      <div>
+        
+      </div>
+      <Footer />
     </>
   )
 }
 
-export default MeetMardy
+export default Males

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../css/footer.css'
 
 const Footer = () => {
@@ -12,16 +13,16 @@ const Footer = () => {
           </div>
           <div className='ftr-txt1'>
             <p>
-              Home<br/>
-              Mardy & Gizmo<br/>
-              Bloodline<br/>
+              <Link to="/">Home</Link><br/>
+              <Link to="/MardyAndGizmo">Mardy & Gizmo</Link><br/>
+              <Link to="/Bloodline">Bloodline</Link><br/>
             </p>
           </div>
           <div className='ftr-txt2'>
             <p>
-              Litters<br/>
-              Gallery<br/>
-              Contact
+              <Link to="/Litters">Litters</Link><br/>
+              <Link to="/Gallery">Gallery</Link><br/>
+              <Link to="/Contact">Contact</Link>
             </p>
           </div>
         </div>
@@ -34,7 +35,7 @@ const Footer = () => {
               <a href='https://www.instagram.com/grizzlygangbullies/' target='_blank' rel='noreferrer'>
                 <img src='instagram.png' alt='instagram logo' className='ig' />
               </a>
-              <a href='https://www.tiktok.com/grizzlygbullies/' target='_blank' rel='noreferrer'>
+              <a href='https://www.tiktok.com/@grizzlygbullies' target='_blank' rel='noreferrer'>
                 <img src='tiktok-square.png' alt='tiktok logo' className='tt' />
               </a>
               <a href='https://www.youtube.com/@grizzlymardy/' target='_blank' rel='noreferrer'>

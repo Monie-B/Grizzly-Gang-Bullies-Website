@@ -8,6 +8,11 @@
     text-shadow: 5px 5px 5px black;
 }
 
+.home-title h3 {
+    font-family: none;
+    color: none;
+}
+
 .home-mainDiv {
     width: 100%;
     margin-bottom: 15px;
