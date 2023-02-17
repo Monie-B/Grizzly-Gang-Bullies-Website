@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
         <main className='ftr-main'>
-          <p>Website Created by Monica Bullock</p>
+          <p>Website Created by Monica Bullock 2023</p>
         </main>
         <div className='ftr-right'>
             <p>Follow Us!<hr/></p>

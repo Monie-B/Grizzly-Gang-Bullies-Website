@@ -3,7 +3,7 @@
 
 .home-title {
     font-family: 'Piedra', cursive;
-    font-size: xx-large;
+    font-size: 40px;
     color: brown;
     text-shadow: 5px 5px 5px black;
 }
@@ -44,4 +44,16 @@
     font-family: 'Changa One', cursive;
     font-size: 60px;
     margin: 0;
+}
+
+.home-2ndTitle {
+    font-size: 60px;
+    margin: 10px 0 27px 0;
+    font-family: 'Fresca', sans-serif;
+    font-weight: bold;
+    color: linear-gradient(blue, black, blue);
+}
+
+.abkcPic {
+    width: 60%;
 }

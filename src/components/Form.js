@@ -14,6 +14,8 @@ const Form = () => {
         <div className='rightside'>
           <label for='message'>Message:</label><br/>
           <textarea type="text" name="message" className='messageInput' placeholder='How Can I Help You?' required ></textarea><br/>
+        </div>
+        <div className='bottom'>
           <input type="submit" value="Send" className='sendBtn'/>
           <input type="reset" value="Reset" className='resetBtn'/>
         </div>

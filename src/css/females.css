@@ -1,0 +1,17 @@
+.bella, .evie {
+    display: inline-block;
+    width: 40%;
+}
+
+.bellaPic, .eviePic {
+    width: 100%;
+    display: inline-block;
+}
+
+.evie {
+    margin-left: 40px;
+}
+
+/* .bellaPg {
+    display: inline-block;
+} */

@@ -1,0 +1,13 @@
+.gizmo, .tank {
+    display: inline-block;
+    width: 40%;
+}
+
+.gizmoPic, .tankPic {
+    width: 100%;
+    display: inline-block;
+}
+
+.tank {
+    margin-left: 40px;
+}

@@ -3,15 +3,29 @@
 
 .contact-div {
     width: 100%;
-    /* margin: 50px 0; */
+    margin: 50px 0;
 }
 
-.imgDiv, .formDiv {
+.contact-title {
+    font-size: 65px;
+    font-family: 'Changa One', cursive;
+    color: brown;
+    margin: 30px 0;
+    text-shadow: 5px 5px 5px black;
+}
+
+.imgDiv {
     display: inline-block;
     width: 40%;
-    vertical-align: middle;
+}
+
+.formDiv {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
 }
 
 .imgDiv img {
     width: 70%;
+    border-radius: 6px;
 }

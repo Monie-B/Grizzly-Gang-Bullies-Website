@@ -25,6 +25,7 @@ export default function App() {
           modules={[Navigation, Pagination]}
           className="mySwiper"
         >
+          <SwiperSlide><img src="IMG_3822.JPG" alt="puppy" /></SwiperSlide>
           <SwiperSlide><img src="IMG_4003.JPG" alt="puppy" /></SwiperSlide>
           <SwiperSlide><img src="IMG_4004.JPG" alt="puppy" /></SwiperSlide>
           <SwiperSlide><img src="IMG_4005.JPG" alt="puppy" /></SwiperSlide>

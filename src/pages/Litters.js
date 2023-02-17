@@ -10,6 +10,7 @@ const Litters = () => {
     <>
       <Header />
       <NavBar />
+      <p className='l-title'>Our First Litter</p>
       <div className='slider-div'>
         <Slider />
       </div>

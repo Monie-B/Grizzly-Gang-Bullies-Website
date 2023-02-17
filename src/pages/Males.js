@@ -9,8 +9,18 @@ const Males = () => {
     <>
       <Header />
       <NavBar />
-      <div>
-        
+      <h1>Our Program Males</h1>
+      <div className='gizmo'>
+        <img src='IMG_3401.jpeg' alt='male American Bully dog' className='gizmoPic'/>
+        <p className='gizmoPg'>
+          Name: Gizmo
+        </p>
+      </div>
+      <div className='tank'>
+        <img src='IMG_3956.JPG'alt='male American Bully pup' className='tankPic' />
+        <p className='tankPg'>
+          Name: Tank
+        </p>
       </div>
       <Footer />
     </>

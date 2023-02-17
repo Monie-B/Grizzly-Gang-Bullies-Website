@@ -10,13 +10,15 @@ const Contact = () => {
     <>
       <Header />
       <NavBar />
+      <p className='contact-title'>Let's Get in Contact</p>
       <div className='contact-div'>
         <div className='imgDiv'>
           <img src='IMG_E4400.JPG' alt='abkc competition' />
         </div>
         <div className='formDiv'>
-          <h2>Got Questions? You've Come to the Right Place</h2>
+          <h1>Got Questions? You've Come to the Right Place</h1>
           <Form />
+          <h2>We'll Respond to You As Soon As Possible!</h2>
         </div>
       </div>
       <Footer />

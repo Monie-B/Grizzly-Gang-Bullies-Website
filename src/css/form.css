@@ -1,13 +1,14 @@
 .form {
     background-color: brown;
-    width: 100%;
+    width: 80%;
     border-radius: 25px;
     padding: 20px;
     border: 5px solid rgb(21, 10, 31);
+    margin: auto;
 }
 
 .messageInput {
-    width: 100%;
+    width: 90%;
     height: 205px;
 }
 
@@ -39,4 +40,11 @@ form input {
     display: inline-block;
     width: 50%;
     vertical-align: top;
+}
+
+.bottom {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px;
 }
